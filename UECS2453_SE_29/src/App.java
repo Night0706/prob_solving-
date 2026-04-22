@@ -63,7 +63,7 @@ public class App {
                         scheduler = new EDFScheduler();
                         break;
                     case 2:
-                        scheduler = new NativeRecu();
+                        scheduler = new NaiveRecursive();
                         break;
                     default:
                         System.out.println("Algorithm not implemented yet. Please choose again.");
